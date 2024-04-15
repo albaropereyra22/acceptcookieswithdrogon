@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/albaro/helloworld/controllers/cookies.cc" "CMakeFiles/helloworld.dir/controllers/cookies.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/cookies.cc.o.d"
-  "/home/albaro/helloworld/main.cc" "CMakeFiles/helloworld.dir/main.cc.o" "gcc" "CMakeFiles/helloworld.dir/main.cc.o.d"
+  "/home/albaro/acceptcookieswithdrogon/controllers/cookies.cc" "CMakeFiles/helloworld.dir/controllers/cookies.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/cookies.cc.o.d"
+  "/home/albaro/acceptcookieswithdrogon/main.cc" "CMakeFiles/helloworld.dir/main.cc.o" "gcc" "CMakeFiles/helloworld.dir/main.cc.o.d"
   )
 
 # Targets to which this target links.

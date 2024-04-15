@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/albaro/helloworld -I/home/albaro/helloworld/models
+CXX_INCLUDES = -I/home/albaro/acceptcookieswithdrogon -I/home/albaro/acceptcookieswithdrogon/models
 
 CXX_FLAGS = -std=c++17
 

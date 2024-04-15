@@ -1,4 +1,4 @@
-# Install script for directory: /home/albaro/helloworld/test
+# Install script for directory: /home/albaro/acceptcookieswithdrogon/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

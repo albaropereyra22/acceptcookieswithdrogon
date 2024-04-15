@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/albaro/helloworld
+CMAKE_SOURCE_DIR = /home/albaro/acceptcookieswithdrogon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/albaro/helloworld/build
+CMAKE_BINARY_DIR = /home/albaro/acceptcookieswithdrogon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/albaro/helloworld/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/albaro/helloworld/build/CMakeFiles /home/albaro/helloworld/build/test//CMakeFiles/progress.marks
-	cd /home/albaro/helloworld/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/albaro/helloworld/build/CMakeFiles 0
+	cd /home/albaro/acceptcookieswithdrogon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/albaro/acceptcookieswithdrogon/build/CMakeFiles /home/albaro/acceptcookieswithdrogon/build/test//CMakeFiles/progress.marks
+	cd /home/albaro/acceptcookieswithdrogon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/albaro/acceptcookieswithdrogon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/albaro/helloworld/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /home/albaro/acceptcookieswithdrogon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/albaro/helloworld/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/albaro/acceptcookieswithdrogon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/albaro/helloworld/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/albaro/acceptcookieswithdrogon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/albaro/helloworld/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/albaro/acceptcookieswithdrogon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/helloworld_test.dir/rule:
-	cd /home/albaro/helloworld/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/helloworld_test.dir/rule
+	cd /home/albaro/acceptcookieswithdrogon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/helloworld_test.dir/rule
 .PHONY : test/CMakeFiles/helloworld_test.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ helloworld_test: test/CMakeFiles/helloworld_test.dir/rule
 
 # fast build rule for target.
 helloworld_test/fast:
-	cd /home/albaro/helloworld/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/helloworld_test.dir/build.make test/CMakeFiles/helloworld_test.dir/build
+	cd /home/albaro/acceptcookieswithdrogon/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/helloworld_test.dir/build.make test/CMakeFiles/helloworld_test.dir/build
 .PHONY : helloworld_test/fast
 
 test_main.o: test_main.cc.o
@@ -135,7 +135,7 @@ test_main.o: test_main.cc.o
 
 # target to build an object file
 test_main.cc.o:
-	cd /home/albaro/helloworld/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/helloworld_test.dir/build.make test/CMakeFiles/helloworld_test.dir/test_main.cc.o
+	cd /home/albaro/acceptcookieswithdrogon/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/helloworld_test.dir/build.make test/CMakeFiles/helloworld_test.dir/test_main.cc.o
 .PHONY : test_main.cc.o
 
 test_main.i: test_main.cc.i
@@ -143,7 +143,7 @@ test_main.i: test_main.cc.i
 
 # target to preprocess a source file
 test_main.cc.i:
-	cd /home/albaro/helloworld/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/helloworld_test.dir/build.make test/CMakeFiles/helloworld_test.dir/test_main.cc.i
+	cd /home/albaro/acceptcookieswithdrogon/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/helloworld_test.dir/build.make test/CMakeFiles/helloworld_test.dir/test_main.cc.i
 .PHONY : test_main.cc.i
 
 test_main.s: test_main.cc.s
@@ -151,7 +151,7 @@ test_main.s: test_main.cc.s
 
 # target to generate assembly for a file
 test_main.cc.s:
-	cd /home/albaro/helloworld/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/helloworld_test.dir/build.make test/CMakeFiles/helloworld_test.dir/test_main.cc.s
+	cd /home/albaro/acceptcookieswithdrogon/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/helloworld_test.dir/build.make test/CMakeFiles/helloworld_test.dir/test_main.cc.s
 .PHONY : test_main.cc.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/albaro/helloworld/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/albaro/acceptcookieswithdrogon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
