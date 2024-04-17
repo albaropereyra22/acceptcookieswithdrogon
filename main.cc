@@ -2,6 +2,8 @@
 int main() {
     //Set HTTP listener address and port
     drogon::app().addListener("0.0.0.0", 5555);
+    //add session
+    drogon::app().enableSession();
     //Load config file
     //drogon::app().loadConfigFile("../config.json");
     //drogon::app().loadConfigFile("../config.yaml");

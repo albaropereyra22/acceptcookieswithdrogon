@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Accept Cookies Agrement</title>
+</head>
+<body>
+  <form action="/landing_page" method="post">
+		<div class="container">
+			<button type="submit">Accept</button>
+		</div>
+  </form> 
+
+</body>
+</html>

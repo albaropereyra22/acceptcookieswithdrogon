@@ -98,7 +98,10 @@ test/helloworld_test: /usr/lib/x86_64-linux-gnu/libssl.so
 test/helloworld_test: /usr/lib/x86_64-linux-gnu/libcrypto.so
 test/helloworld_test: /usr/local/lib/libjsoncpp.so
 test/helloworld_test: /usr/lib/x86_64-linux-gnu/libuuid.so
+test/helloworld_test: /usr/lib/x86_64-linux-gnu/libpq.so
+test/helloworld_test: /usr/lib/x86_64-linux-gnu/libmariadbclient.so
 test/helloworld_test: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+test/helloworld_test: /usr/lib/x86_64-linux-gnu/libhiredis.so
 test/helloworld_test: /usr/lib/x86_64-linux-gnu/libz.so
 test/helloworld_test: test/CMakeFiles/helloworld_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable helloworld_test"

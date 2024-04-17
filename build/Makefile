@@ -142,6 +142,54 @@ helloworld_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/helloworld_test.dir/build.make test/CMakeFiles/helloworld_test.dir/build
 .PHONY : helloworld_test/fast
 
+AcceptCookies.o: AcceptCookies.cc.o
+.PHONY : AcceptCookies.o
+
+# target to build an object file
+AcceptCookies.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/AcceptCookies.cc.o
+.PHONY : AcceptCookies.cc.o
+
+AcceptCookies.i: AcceptCookies.cc.i
+.PHONY : AcceptCookies.i
+
+# target to preprocess a source file
+AcceptCookies.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/AcceptCookies.cc.i
+.PHONY : AcceptCookies.cc.i
+
+AcceptCookies.s: AcceptCookies.cc.s
+.PHONY : AcceptCookies.s
+
+# target to generate assembly for a file
+AcceptCookies.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/AcceptCookies.cc.s
+.PHONY : AcceptCookies.cc.s
+
+LandingPage.o: LandingPage.cc.o
+.PHONY : LandingPage.o
+
+# target to build an object file
+LandingPage.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/LandingPage.cc.o
+.PHONY : LandingPage.cc.o
+
+LandingPage.i: LandingPage.cc.i
+.PHONY : LandingPage.i
+
+# target to preprocess a source file
+LandingPage.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/LandingPage.cc.i
+.PHONY : LandingPage.cc.i
+
+LandingPage.s: LandingPage.cc.s
+.PHONY : LandingPage.s
+
+# target to generate assembly for a file
+LandingPage.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/LandingPage.cc.s
+.PHONY : LandingPage.cc.s
+
 controllers/cookies.o: controllers/cookies.cc.o
 .PHONY : controllers/cookies.o
 
@@ -165,6 +213,30 @@ controllers/cookies.s: controllers/cookies.cc.s
 controllers/cookies.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/cookies.cc.s
 .PHONY : controllers/cookies.cc.s
+
+controllers/landing_page.o: controllers/landing_page.cc.o
+.PHONY : controllers/landing_page.o
+
+# target to build an object file
+controllers/landing_page.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/landing_page.cc.o
+.PHONY : controllers/landing_page.cc.o
+
+controllers/landing_page.i: controllers/landing_page.cc.i
+.PHONY : controllers/landing_page.i
+
+# target to preprocess a source file
+controllers/landing_page.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/landing_page.cc.i
+.PHONY : controllers/landing_page.cc.i
+
+controllers/landing_page.s: controllers/landing_page.cc.s
+.PHONY : controllers/landing_page.s
+
+# target to generate assembly for a file
+controllers/landing_page.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/landing_page.cc.s
+.PHONY : controllers/landing_page.cc.s
 
 main.o: main.cc.o
 .PHONY : main.o
@@ -200,9 +272,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... helloworld"
 	@echo "... helloworld_test"
+	@echo "... AcceptCookies.o"
+	@echo "... AcceptCookies.i"
+	@echo "... AcceptCookies.s"
+	@echo "... LandingPage.o"
+	@echo "... LandingPage.i"
+	@echo "... LandingPage.s"
 	@echo "... controllers/cookies.o"
 	@echo "... controllers/cookies.i"
 	@echo "... controllers/cookies.s"
+	@echo "... controllers/landing_page.o"
+	@echo "... controllers/landing_page.i"
+	@echo "... controllers/landing_page.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
