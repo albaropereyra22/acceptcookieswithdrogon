@@ -18,18 +18,20 @@ std::string AcceptCookies::genText(const DrTemplateData& AcceptCookies_view_data
 	drogon::OStringStream AcceptCookies_tmp_stream;
 	std::string layoutName{""};
 	AcceptCookies_tmp_stream << "<!DOCTYPE html>\n";
-	AcceptCookies_tmp_stream << "<html>\n";
+	AcceptCookies_tmp_stream << "<html lang=\"en\">\n";
 	AcceptCookies_tmp_stream << "<head>\n";
-	AcceptCookies_tmp_stream << "    <meta charset=\"UTF-8\">\n";
-	AcceptCookies_tmp_stream << "    <title>Accept Cookies Agrement</title>\n";
+	AcceptCookies_tmp_stream << "  <meta charset=\"utf-8\">\n";
+	AcceptCookies_tmp_stream << "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n";
+	AcceptCookies_tmp_stream << "  <title>Accept Cookies Agrement</title>\n";
+	AcceptCookies_tmp_stream << "  <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\" crossorigin=\"anonymous\">\n";
 	AcceptCookies_tmp_stream << "</head>\n";
 	AcceptCookies_tmp_stream << "<body>\n";
 	AcceptCookies_tmp_stream << "  <form action=\"/landing_page\" method=\"post\">\n";
 	AcceptCookies_tmp_stream << "		<div class=\"container\">\n";
 	AcceptCookies_tmp_stream << "			<button type=\"submit\">Accept</button>\n";
 	AcceptCookies_tmp_stream << "		</div>\n";
-	AcceptCookies_tmp_stream << "  </form> \n";
-AcceptCookies_tmp_stream<<"\n";
+	AcceptCookies_tmp_stream << "  </form>\n";
+	AcceptCookies_tmp_stream << "  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz\" crossorigin=\"anonymous\"></script>\n";
 	AcceptCookies_tmp_stream << "</body>\n";
 	AcceptCookies_tmp_stream << "</html>\n";
 if(layoutName.empty())

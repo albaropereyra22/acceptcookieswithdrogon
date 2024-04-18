@@ -17,7 +17,7 @@ std::string LandingPage::genText(const DrTemplateData& LandingPage_view_data)
 {
 	drogon::OStringStream LandingPage_tmp_stream;
 	std::string layoutName{""};
-	LandingPage_tmp_stream << "<!doctype html>\n";
+	LandingPage_tmp_stream << "<!DOCTYPE html>\n";
 	LandingPage_tmp_stream << "<html lang=\"en\">\n";
 	LandingPage_tmp_stream << "  <head>\n";
 	LandingPage_tmp_stream << "      <meta charset=\"utf-8\">\n";
