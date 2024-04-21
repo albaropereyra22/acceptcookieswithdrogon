@@ -166,6 +166,30 @@ AcceptCookies.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/AcceptCookies.cc.s
 .PHONY : AcceptCookies.cc.s
 
+Features.o: Features.cc.o
+.PHONY : Features.o
+
+# target to build an object file
+Features.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Features.cc.o
+.PHONY : Features.cc.o
+
+Features.i: Features.cc.i
+.PHONY : Features.i
+
+# target to preprocess a source file
+Features.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Features.cc.i
+.PHONY : Features.cc.i
+
+Features.s: Features.cc.s
+.PHONY : Features.s
+
+# target to generate assembly for a file
+Features.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Features.cc.s
+.PHONY : Features.cc.s
+
 LandingPage.o: LandingPage.cc.o
 .PHONY : LandingPage.o
 
@@ -214,6 +238,30 @@ controllers/cookies.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/cookies.cc.s
 .PHONY : controllers/cookies.cc.s
 
+controllers/features.o: controllers/features.cc.o
+.PHONY : controllers/features.o
+
+# target to build an object file
+controllers/features.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/features.cc.o
+.PHONY : controllers/features.cc.o
+
+controllers/features.i: controllers/features.cc.i
+.PHONY : controllers/features.i
+
+# target to preprocess a source file
+controllers/features.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/features.cc.i
+.PHONY : controllers/features.cc.i
+
+controllers/features.s: controllers/features.cc.s
+.PHONY : controllers/features.s
+
+# target to generate assembly for a file
+controllers/features.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/features.cc.s
+.PHONY : controllers/features.cc.s
+
 controllers/landing_page.o: controllers/landing_page.cc.o
 .PHONY : controllers/landing_page.o
 
@@ -237,6 +285,30 @@ controllers/landing_page.s: controllers/landing_page.cc.s
 controllers/landing_page.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/landing_page.cc.s
 .PHONY : controllers/landing_page.cc.s
+
+filters/acceptCookies.o: filters/acceptCookies.cc.o
+.PHONY : filters/acceptCookies.o
+
+# target to build an object file
+filters/acceptCookies.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o
+.PHONY : filters/acceptCookies.cc.o
+
+filters/acceptCookies.i: filters/acceptCookies.cc.i
+.PHONY : filters/acceptCookies.i
+
+# target to preprocess a source file
+filters/acceptCookies.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/filters/acceptCookies.cc.i
+.PHONY : filters/acceptCookies.cc.i
+
+filters/acceptCookies.s: filters/acceptCookies.cc.s
+.PHONY : filters/acceptCookies.s
+
+# target to generate assembly for a file
+filters/acceptCookies.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/filters/acceptCookies.cc.s
+.PHONY : filters/acceptCookies.cc.s
 
 main.o: main.cc.o
 .PHONY : main.o
@@ -275,15 +347,24 @@ help:
 	@echo "... AcceptCookies.o"
 	@echo "... AcceptCookies.i"
 	@echo "... AcceptCookies.s"
+	@echo "... Features.o"
+	@echo "... Features.i"
+	@echo "... Features.s"
 	@echo "... LandingPage.o"
 	@echo "... LandingPage.i"
 	@echo "... LandingPage.s"
 	@echo "... controllers/cookies.o"
 	@echo "... controllers/cookies.i"
 	@echo "... controllers/cookies.s"
+	@echo "... controllers/features.o"
+	@echo "... controllers/features.i"
+	@echo "... controllers/features.s"
 	@echo "... controllers/landing_page.o"
 	@echo "... controllers/landing_page.i"
 	@echo "... controllers/landing_page.s"
+	@echo "... filters/acceptCookies.o"
+	@echo "... filters/acceptCookies.i"
+	@echo "... filters/acceptCookies.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
