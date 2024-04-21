@@ -62,17 +62,16 @@ body {
 .btn-bd-primary {
     --bd-violet-bg: #712cf9;
     --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
+    --bs-btn-border-color: #762c76;
     --bs-btn-font-weight: 600;
     --bs-btn-color: var(--bs-white);
     --bs-btn-bg: var(--bd-violet-bg);
     --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: #6528e0;
-    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-hover-bg: #76ef76;
+    --bs-btn-hover-border-color: #76ef76;
     --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
     --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #5a23c8;
-    --bs-btn-active-border-color: #5a23c8;
+    --bs-btn-active-bg: #76ef76;
 }
 
 .bd-mode-toggle {
@@ -88,11 +87,12 @@ body {
 
 
 <main class="form-acceptcookies w-100 m-auto">
-<form action="/landing_page" method="post">
+<form style="padding-bottom:.25
+rem;" action="/landing_page" method="post">
 
   <h1 class="h3 mb-3 fw-normal">Please Accept Cookies</h1>
   </div>
-  <button class="btn btn-primary w-100 py-2" style="background-color:#76ef76" type="submit">Accept</button>
+  <button class="btn btn-primary w-100 py-2" style="background-color:#76ef76;--bs-btn-border-color: #76ef76;" type="submit">Accept</button></br></br>
 </form>
   <button class="btn btn-secondary w-100 py-2" style="background-color:red" type="">Decline</button>
   <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2024</p>
