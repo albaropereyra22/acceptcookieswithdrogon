@@ -190,6 +190,54 @@ Features.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Features.cc.s
 .PHONY : Features.cc.s
 
+Footer.o: Footer.cc.o
+.PHONY : Footer.o
+
+# target to build an object file
+Footer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Footer.cc.o
+.PHONY : Footer.cc.o
+
+Footer.i: Footer.cc.i
+.PHONY : Footer.i
+
+# target to preprocess a source file
+Footer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Footer.cc.i
+.PHONY : Footer.cc.i
+
+Footer.s: Footer.cc.s
+.PHONY : Footer.s
+
+# target to generate assembly for a file
+Footer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Footer.cc.s
+.PHONY : Footer.cc.s
+
+Header.o: Header.cc.o
+.PHONY : Header.o
+
+# target to build an object file
+Header.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Header.cc.o
+.PHONY : Header.cc.o
+
+Header.i: Header.cc.i
+.PHONY : Header.i
+
+# target to preprocess a source file
+Header.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Header.cc.i
+.PHONY : Header.cc.i
+
+Header.s: Header.cc.s
+.PHONY : Header.s
+
+# target to generate assembly for a file
+Header.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Header.cc.s
+.PHONY : Header.cc.s
+
 LandingPage.o: LandingPage.cc.o
 .PHONY : LandingPage.o
 
@@ -286,6 +334,30 @@ controllers/landing_page.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/landing_page.cc.s
 .PHONY : controllers/landing_page.cc.s
 
+controllers/subscribe.o: controllers/subscribe.cc.o
+.PHONY : controllers/subscribe.o
+
+# target to build an object file
+controllers/subscribe.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/subscribe.cc.o
+.PHONY : controllers/subscribe.cc.o
+
+controllers/subscribe.i: controllers/subscribe.cc.i
+.PHONY : controllers/subscribe.i
+
+# target to preprocess a source file
+controllers/subscribe.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/subscribe.cc.i
+.PHONY : controllers/subscribe.cc.i
+
+controllers/subscribe.s: controllers/subscribe.cc.s
+.PHONY : controllers/subscribe.s
+
+# target to generate assembly for a file
+controllers/subscribe.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/subscribe.cc.s
+.PHONY : controllers/subscribe.cc.s
+
 filters/acceptCookies.o: filters/acceptCookies.cc.o
 .PHONY : filters/acceptCookies.o
 
@@ -350,6 +422,12 @@ help:
 	@echo "... Features.o"
 	@echo "... Features.i"
 	@echo "... Features.s"
+	@echo "... Footer.o"
+	@echo "... Footer.i"
+	@echo "... Footer.s"
+	@echo "... Header.o"
+	@echo "... Header.i"
+	@echo "... Header.s"
 	@echo "... LandingPage.o"
 	@echo "... LandingPage.i"
 	@echo "... LandingPage.s"
@@ -362,6 +440,9 @@ help:
 	@echo "... controllers/landing_page.o"
 	@echo "... controllers/landing_page.i"
 	@echo "... controllers/landing_page.s"
+	@echo "... controllers/subscribe.o"
+	@echo "... controllers/subscribe.i"
+	@echo "... controllers/subscribe.s"
 	@echo "... filters/acceptCookies.o"
 	@echo "... filters/acceptCookies.i"
 	@echo "... filters/acceptCookies.s"

@@ -10,10 +10,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/albaro/acceptcookieswithdrogon/build/AcceptCookies.cc" "CMakeFiles/helloworld.dir/AcceptCookies.cc.o" "gcc" "CMakeFiles/helloworld.dir/AcceptCookies.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/build/Features.cc" "CMakeFiles/helloworld.dir/Features.cc.o" "gcc" "CMakeFiles/helloworld.dir/Features.cc.o.d"
+  "/home/albaro/acceptcookieswithdrogon/build/Footer.cc" "CMakeFiles/helloworld.dir/Footer.cc.o" "gcc" "CMakeFiles/helloworld.dir/Footer.cc.o.d"
+  "/home/albaro/acceptcookieswithdrogon/build/Header.cc" "CMakeFiles/helloworld.dir/Header.cc.o" "gcc" "CMakeFiles/helloworld.dir/Header.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/build/LandingPage.cc" "CMakeFiles/helloworld.dir/LandingPage.cc.o" "gcc" "CMakeFiles/helloworld.dir/LandingPage.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/controllers/cookies.cc" "CMakeFiles/helloworld.dir/controllers/cookies.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/cookies.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/controllers/features.cc" "CMakeFiles/helloworld.dir/controllers/features.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/features.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/controllers/landing_page.cc" "CMakeFiles/helloworld.dir/controllers/landing_page.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/landing_page.cc.o.d"
+  "/home/albaro/acceptcookieswithdrogon/controllers/subscribe.cc" "CMakeFiles/helloworld.dir/controllers/subscribe.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/subscribe.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/filters/acceptCookies.cc" "CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o" "gcc" "CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/main.cc" "CMakeFiles/helloworld.dir/main.cc.o" "gcc" "CMakeFiles/helloworld.dir/main.cc.o.d"
   )
@@ -22,6 +25,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/albaro/acceptcookieswithdrogon/build/AcceptCookies.cc" "/home/albaro/acceptcookieswithdrogon/build/AcceptCookies.h"
   "/home/albaro/acceptcookieswithdrogon/build/Features.cc" "/home/albaro/acceptcookieswithdrogon/build/Features.h"
+  "/home/albaro/acceptcookieswithdrogon/build/Footer.cc" "/home/albaro/acceptcookieswithdrogon/build/Footer.h"
+  "/home/albaro/acceptcookieswithdrogon/build/Header.cc" "/home/albaro/acceptcookieswithdrogon/build/Header.h"
   "/home/albaro/acceptcookieswithdrogon/build/LandingPage.cc" "/home/albaro/acceptcookieswithdrogon/build/LandingPage.h"
   )
 

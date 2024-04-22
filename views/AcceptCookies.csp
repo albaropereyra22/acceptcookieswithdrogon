@@ -60,9 +60,9 @@ body {
 }
 
 .btn-bd-primary {
-    --bd-violet-bg: #712cf9;
+    --bd-violet-bg: #76ef76;
     --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-    --bs-btn-border-color: #762c76;
+    --bs-btn-border-color: #76ef76;
     --bs-btn-font-weight: 600;
     --bs-btn-color: var(--bs-white);
     --bs-btn-bg: var(--bd-violet-bg);
