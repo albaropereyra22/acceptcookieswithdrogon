@@ -17,17 +17,17 @@ std::string Footer::genText(const DrTemplateData& Footer_view_data)
 {
 	drogon::OStringStream Footer_tmp_stream;
 	std::string layoutName{""};
-	Footer_tmp_stream << "    <div class=\"container\">\n";
+	Footer_tmp_stream << "<div class=\"container\">\n";
 	Footer_tmp_stream << "  <footer class=\"py-5\">\n";
 	Footer_tmp_stream << "    <div class=\"row\">\n";
 	Footer_tmp_stream << "      <div class=\"col-2\">\n";
 	Footer_tmp_stream << "        <h5>Section</h5>\n";
 	Footer_tmp_stream << "        <ul class=\"nav flex-column\">\n";
-	Footer_tmp_stream << "          <li class=\"nav-item mb-2\"><a href=\"#\" class=\"nav-link p-0 text-muted\">Home</a></li>\n";
-	Footer_tmp_stream << "          <li class=\"nav-item mb-2\"><a href=\"#\" class=\"nav-link p-0 text-muted\">Features</a></li>\n";
-	Footer_tmp_stream << "          <li class=\"nav-item mb-2\"><a href=\"#\" class=\"nav-link p-0 text-muted\">Pricing</a></li>\n";
-	Footer_tmp_stream << "          <li class=\"nav-item mb-2\"><a href=\"#\" class=\"nav-link p-0 text-muted\">FAQs</a></li>\n";
-	Footer_tmp_stream << "          <li class=\"nav-item mb-2\"><a href=\"#\" class=\"nav-link p-0 text-muted\">About</a></li>\n";
+	Footer_tmp_stream << "          <li class=\"nav-item mb-2\"><a href=\"/\" class=\"nav-link p-0 text-muted\">Home</a></li>\n";
+	Footer_tmp_stream << "          <li class=\"nav-item mb-2\"><a href=\"/features\" class=\"nav-link p-0 text-muted\">Features</a></li>\n";
+	Footer_tmp_stream << "          <li class=\"nav-item mb-2\"><a href=\"/pricing\" class=\"nav-link p-0 text-muted\">Pricing</a></li>\n";
+	Footer_tmp_stream << "          <li class=\"nav-item mb-2\"><a href=\"/faqs\" class=\"nav-link p-0 text-muted\">FAQs</a></li>\n";
+	Footer_tmp_stream << "          <li class=\"nav-item mb-2\"><a href=\"/about\" class=\"nav-link p-0 text-muted\">About</a></li>\n";
 	Footer_tmp_stream << "        </ul>\n";
 	Footer_tmp_stream << "      </div>\n";
 	Footer_tmp_stream << "      <div class=\"col-2\">\n";
@@ -36,7 +36,7 @@ std::string Footer::genText(const DrTemplateData& Footer_view_data)
 	Footer_tmp_stream << "      </div>\n";
 	Footer_tmp_stream << "  \n";
 	Footer_tmp_stream << "      <div class=\"col-4 offset-1\">\n";
-	Footer_tmp_stream << "        <form action=\"/subscribe\" method=\"post\">\n";
+	Footer_tmp_stream << "        <form action=\"/subscribe\" method=\"Post\" >\n";
 	Footer_tmp_stream << "          <h5>Subscribe to our newsletter</h5>\n";
 	Footer_tmp_stream << "          <p>Monthly digest of whats new and exciting from us.</p>\n";
 	Footer_tmp_stream << "          <div class=\"d-flex w-100 gap-2\">\n";

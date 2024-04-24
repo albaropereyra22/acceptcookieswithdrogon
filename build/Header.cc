@@ -38,7 +38,7 @@ Header_tmp_stream<<"\n";
 	Header_tmp_stream << "<button type=\"button\" class=\"btn btn-primary\">Sign-up</button>\n";
 	Header_tmp_stream << "</div>\n";
 	Header_tmp_stream << "</header>\n";
-	Header_tmp_stream << "</div>	\n";
+	Header_tmp_stream << "</div>\n";
 if(layoutName.empty())
 {
 std::string ret{std::move(Header_tmp_stream.str())};
