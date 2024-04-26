@@ -142,6 +142,30 @@ helloworld_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/helloworld_test.dir/build.make test/CMakeFiles/helloworld_test.dir/build
 .PHONY : helloworld_test/fast
 
+About.o: About.cc.o
+.PHONY : About.o
+
+# target to build an object file
+About.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/About.cc.o
+.PHONY : About.cc.o
+
+About.i: About.cc.i
+.PHONY : About.i
+
+# target to preprocess a source file
+About.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/About.cc.i
+.PHONY : About.cc.i
+
+About.s: About.cc.s
+.PHONY : About.s
+
+# target to generate assembly for a file
+About.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/About.cc.s
+.PHONY : About.cc.s
+
 AcceptCookies.o: AcceptCookies.cc.o
 .PHONY : AcceptCookies.o
 
@@ -165,6 +189,30 @@ AcceptCookies.s: AcceptCookies.cc.s
 AcceptCookies.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/AcceptCookies.cc.s
 .PHONY : AcceptCookies.cc.s
+
+FAQ.o: FAQ.cc.o
+.PHONY : FAQ.o
+
+# target to build an object file
+FAQ.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/FAQ.cc.o
+.PHONY : FAQ.cc.o
+
+FAQ.i: FAQ.cc.i
+.PHONY : FAQ.i
+
+# target to preprocess a source file
+FAQ.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/FAQ.cc.i
+.PHONY : FAQ.cc.i
+
+FAQ.s: FAQ.cc.s
+.PHONY : FAQ.s
+
+# target to generate assembly for a file
+FAQ.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/FAQ.cc.s
+.PHONY : FAQ.cc.s
 
 Features.o: Features.cc.o
 .PHONY : Features.o
@@ -286,6 +334,30 @@ Pricing.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Pricing.cc.s
 .PHONY : Pricing.cc.s
 
+controllers/about.o: controllers/about.cc.o
+.PHONY : controllers/about.o
+
+# target to build an object file
+controllers/about.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/about.cc.o
+.PHONY : controllers/about.cc.o
+
+controllers/about.i: controllers/about.cc.i
+.PHONY : controllers/about.i
+
+# target to preprocess a source file
+controllers/about.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/about.cc.i
+.PHONY : controllers/about.cc.i
+
+controllers/about.s: controllers/about.cc.s
+.PHONY : controllers/about.s
+
+# target to generate assembly for a file
+controllers/about.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/about.cc.s
+.PHONY : controllers/about.cc.s
+
 controllers/cookies.o: controllers/cookies.cc.o
 .PHONY : controllers/cookies.o
 
@@ -309,6 +381,30 @@ controllers/cookies.s: controllers/cookies.cc.s
 controllers/cookies.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/cookies.cc.s
 .PHONY : controllers/cookies.cc.s
+
+controllers/faq.o: controllers/faq.cc.o
+.PHONY : controllers/faq.o
+
+# target to build an object file
+controllers/faq.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/faq.cc.o
+.PHONY : controllers/faq.cc.o
+
+controllers/faq.i: controllers/faq.cc.i
+.PHONY : controllers/faq.i
+
+# target to preprocess a source file
+controllers/faq.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/faq.cc.i
+.PHONY : controllers/faq.cc.i
+
+controllers/faq.s: controllers/faq.cc.s
+.PHONY : controllers/faq.s
+
+# target to generate assembly for a file
+controllers/faq.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/faq.cc.s
+.PHONY : controllers/faq.cc.s
 
 controllers/features.o: controllers/features.cc.o
 .PHONY : controllers/features.o
@@ -488,9 +584,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... helloworld"
 	@echo "... helloworld_test"
+	@echo "... About.o"
+	@echo "... About.i"
+	@echo "... About.s"
 	@echo "... AcceptCookies.o"
 	@echo "... AcceptCookies.i"
 	@echo "... AcceptCookies.s"
+	@echo "... FAQ.o"
+	@echo "... FAQ.i"
+	@echo "... FAQ.s"
 	@echo "... Features.o"
 	@echo "... Features.i"
 	@echo "... Features.s"
@@ -506,9 +608,15 @@ help:
 	@echo "... Pricing.o"
 	@echo "... Pricing.i"
 	@echo "... Pricing.s"
+	@echo "... controllers/about.o"
+	@echo "... controllers/about.i"
+	@echo "... controllers/about.s"
 	@echo "... controllers/cookies.o"
 	@echo "... controllers/cookies.i"
 	@echo "... controllers/cookies.s"
+	@echo "... controllers/faq.o"
+	@echo "... controllers/faq.i"
+	@echo "... controllers/faq.s"
 	@echo "... controllers/features.o"
 	@echo "... controllers/features.i"
 	@echo "... controllers/features.s"

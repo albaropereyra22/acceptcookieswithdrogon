@@ -1,5 +1,7 @@
 # Hashes of file build rules.
+09c4d9aec7ffc77453fb7ff796d082fb About.h
 c710839e7895d953cd0b377865ac8465 AcceptCookies.h
+014e86044a23ce510160d9b4485f33ea FAQ.h
 d857afccac5ad3796bea6aa802122598 Features.h
 51836f4d7a5c5c43c2b699041c6baae3 Footer.h
 4205668b600a9b26c0e4f897f0d301ed Header.h

@@ -69,43 +69,57 @@ include CMakeFiles/helloworld.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/helloworld.dir/flags.make
 
+About.h: ../views/About.csp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating About.h, About.cc"
+	cd /home/albaro/acceptcookieswithdrogon && drogon_ctl create view views/About.csp -o /home/albaro/acceptcookieswithdrogon/build
+
+About.cc: About.h
+	@$(CMAKE_COMMAND) -E touch_nocreate About.cc
+
 AcceptCookies.h: ../views/AcceptCookies.csp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating AcceptCookies.h, AcceptCookies.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating AcceptCookies.h, AcceptCookies.cc"
 	cd /home/albaro/acceptcookieswithdrogon && drogon_ctl create view views/AcceptCookies.csp -o /home/albaro/acceptcookieswithdrogon/build
 
 AcceptCookies.cc: AcceptCookies.h
 	@$(CMAKE_COMMAND) -E touch_nocreate AcceptCookies.cc
 
+FAQ.h: ../views/FAQ.csp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating FAQ.h, FAQ.cc"
+	cd /home/albaro/acceptcookieswithdrogon && drogon_ctl create view views/FAQ.csp -o /home/albaro/acceptcookieswithdrogon/build
+
+FAQ.cc: FAQ.h
+	@$(CMAKE_COMMAND) -E touch_nocreate FAQ.cc
+
 Features.h: ../views/Features.csp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Features.h, Features.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Features.h, Features.cc"
 	cd /home/albaro/acceptcookieswithdrogon && drogon_ctl create view views/Features.csp -o /home/albaro/acceptcookieswithdrogon/build
 
 Features.cc: Features.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Features.cc
 
 Footer.h: ../views/Footer.csp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Footer.h, Footer.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Footer.h, Footer.cc"
 	cd /home/albaro/acceptcookieswithdrogon && drogon_ctl create view views/Footer.csp -o /home/albaro/acceptcookieswithdrogon/build
 
 Footer.cc: Footer.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Footer.cc
 
 Header.h: ../views/Header.csp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Header.h, Header.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Header.h, Header.cc"
 	cd /home/albaro/acceptcookieswithdrogon && drogon_ctl create view views/Header.csp -o /home/albaro/acceptcookieswithdrogon/build
 
 Header.cc: Header.h
 	@$(CMAKE_COMMAND) -E touch_nocreate Header.cc
 
 LandingPage.h: ../views/LandingPage.csp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating LandingPage.h, LandingPage.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating LandingPage.h, LandingPage.cc"
 	cd /home/albaro/acceptcookieswithdrogon && drogon_ctl create view views/LandingPage.csp -o /home/albaro/acceptcookieswithdrogon/build
 
 LandingPage.cc: LandingPage.h
 	@$(CMAKE_COMMAND) -E touch_nocreate LandingPage.cc
 
 Pricing.h: ../views/Pricing.csp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Pricing.h, Pricing.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Pricing.h, Pricing.cc"
 	cd /home/albaro/acceptcookieswithdrogon && drogon_ctl create view views/Pricing.csp -o /home/albaro/acceptcookieswithdrogon/build
 
 Pricing.cc: Pricing.h
@@ -114,7 +128,7 @@ Pricing.cc: Pricing.h
 CMakeFiles/helloworld.dir/main.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/main.cc.o: ../main.cc
 CMakeFiles/helloworld.dir/main.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/helloworld.dir/main.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/helloworld.dir/main.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/main.cc.o -MF CMakeFiles/helloworld.dir/main.cc.o.d -o CMakeFiles/helloworld.dir/main.cc.o -c /home/albaro/acceptcookieswithdrogon/main.cc
 
 CMakeFiles/helloworld.dir/main.cc.i: cmake_force
@@ -125,10 +139,24 @@ CMakeFiles/helloworld.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/main.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/albaro/acceptcookieswithdrogon/main.cc -o CMakeFiles/helloworld.dir/main.cc.s
 
+CMakeFiles/helloworld.dir/About.cc.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/About.cc.o: About.cc
+CMakeFiles/helloworld.dir/About.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/helloworld.dir/About.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/About.cc.o -MF CMakeFiles/helloworld.dir/About.cc.o.d -o CMakeFiles/helloworld.dir/About.cc.o -c /home/albaro/acceptcookieswithdrogon/build/About.cc
+
+CMakeFiles/helloworld.dir/About.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/About.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/albaro/acceptcookieswithdrogon/build/About.cc > CMakeFiles/helloworld.dir/About.cc.i
+
+CMakeFiles/helloworld.dir/About.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/About.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/albaro/acceptcookieswithdrogon/build/About.cc -o CMakeFiles/helloworld.dir/About.cc.s
+
 CMakeFiles/helloworld.dir/AcceptCookies.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/AcceptCookies.cc.o: AcceptCookies.cc
 CMakeFiles/helloworld.dir/AcceptCookies.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/helloworld.dir/AcceptCookies.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/helloworld.dir/AcceptCookies.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/AcceptCookies.cc.o -MF CMakeFiles/helloworld.dir/AcceptCookies.cc.o.d -o CMakeFiles/helloworld.dir/AcceptCookies.cc.o -c /home/albaro/acceptcookieswithdrogon/build/AcceptCookies.cc
 
 CMakeFiles/helloworld.dir/AcceptCookies.cc.i: cmake_force
@@ -139,10 +167,24 @@ CMakeFiles/helloworld.dir/AcceptCookies.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/AcceptCookies.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/albaro/acceptcookieswithdrogon/build/AcceptCookies.cc -o CMakeFiles/helloworld.dir/AcceptCookies.cc.s
 
+CMakeFiles/helloworld.dir/FAQ.cc.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/FAQ.cc.o: FAQ.cc
+CMakeFiles/helloworld.dir/FAQ.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/helloworld.dir/FAQ.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/FAQ.cc.o -MF CMakeFiles/helloworld.dir/FAQ.cc.o.d -o CMakeFiles/helloworld.dir/FAQ.cc.o -c /home/albaro/acceptcookieswithdrogon/build/FAQ.cc
+
+CMakeFiles/helloworld.dir/FAQ.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/FAQ.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/albaro/acceptcookieswithdrogon/build/FAQ.cc > CMakeFiles/helloworld.dir/FAQ.cc.i
+
+CMakeFiles/helloworld.dir/FAQ.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/FAQ.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/albaro/acceptcookieswithdrogon/build/FAQ.cc -o CMakeFiles/helloworld.dir/FAQ.cc.s
+
 CMakeFiles/helloworld.dir/Features.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/Features.cc.o: Features.cc
 CMakeFiles/helloworld.dir/Features.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/helloworld.dir/Features.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/helloworld.dir/Features.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/Features.cc.o -MF CMakeFiles/helloworld.dir/Features.cc.o.d -o CMakeFiles/helloworld.dir/Features.cc.o -c /home/albaro/acceptcookieswithdrogon/build/Features.cc
 
 CMakeFiles/helloworld.dir/Features.cc.i: cmake_force
@@ -156,7 +198,7 @@ CMakeFiles/helloworld.dir/Features.cc.s: cmake_force
 CMakeFiles/helloworld.dir/Footer.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/Footer.cc.o: Footer.cc
 CMakeFiles/helloworld.dir/Footer.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/helloworld.dir/Footer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/helloworld.dir/Footer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/Footer.cc.o -MF CMakeFiles/helloworld.dir/Footer.cc.o.d -o CMakeFiles/helloworld.dir/Footer.cc.o -c /home/albaro/acceptcookieswithdrogon/build/Footer.cc
 
 CMakeFiles/helloworld.dir/Footer.cc.i: cmake_force
@@ -170,7 +212,7 @@ CMakeFiles/helloworld.dir/Footer.cc.s: cmake_force
 CMakeFiles/helloworld.dir/Header.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/Header.cc.o: Header.cc
 CMakeFiles/helloworld.dir/Header.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/helloworld.dir/Header.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/helloworld.dir/Header.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/Header.cc.o -MF CMakeFiles/helloworld.dir/Header.cc.o.d -o CMakeFiles/helloworld.dir/Header.cc.o -c /home/albaro/acceptcookieswithdrogon/build/Header.cc
 
 CMakeFiles/helloworld.dir/Header.cc.i: cmake_force
@@ -184,7 +226,7 @@ CMakeFiles/helloworld.dir/Header.cc.s: cmake_force
 CMakeFiles/helloworld.dir/LandingPage.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/LandingPage.cc.o: LandingPage.cc
 CMakeFiles/helloworld.dir/LandingPage.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/helloworld.dir/LandingPage.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/helloworld.dir/LandingPage.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/LandingPage.cc.o -MF CMakeFiles/helloworld.dir/LandingPage.cc.o.d -o CMakeFiles/helloworld.dir/LandingPage.cc.o -c /home/albaro/acceptcookieswithdrogon/build/LandingPage.cc
 
 CMakeFiles/helloworld.dir/LandingPage.cc.i: cmake_force
@@ -198,7 +240,7 @@ CMakeFiles/helloworld.dir/LandingPage.cc.s: cmake_force
 CMakeFiles/helloworld.dir/Pricing.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/Pricing.cc.o: Pricing.cc
 CMakeFiles/helloworld.dir/Pricing.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/helloworld.dir/Pricing.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/helloworld.dir/Pricing.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/Pricing.cc.o -MF CMakeFiles/helloworld.dir/Pricing.cc.o.d -o CMakeFiles/helloworld.dir/Pricing.cc.o -c /home/albaro/acceptcookieswithdrogon/build/Pricing.cc
 
 CMakeFiles/helloworld.dir/Pricing.cc.i: cmake_force
@@ -209,10 +251,24 @@ CMakeFiles/helloworld.dir/Pricing.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/Pricing.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/albaro/acceptcookieswithdrogon/build/Pricing.cc -o CMakeFiles/helloworld.dir/Pricing.cc.s
 
+CMakeFiles/helloworld.dir/controllers/about.cc.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/controllers/about.cc.o: ../controllers/about.cc
+CMakeFiles/helloworld.dir/controllers/about.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/helloworld.dir/controllers/about.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/controllers/about.cc.o -MF CMakeFiles/helloworld.dir/controllers/about.cc.o.d -o CMakeFiles/helloworld.dir/controllers/about.cc.o -c /home/albaro/acceptcookieswithdrogon/controllers/about.cc
+
+CMakeFiles/helloworld.dir/controllers/about.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/controllers/about.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/albaro/acceptcookieswithdrogon/controllers/about.cc > CMakeFiles/helloworld.dir/controllers/about.cc.i
+
+CMakeFiles/helloworld.dir/controllers/about.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/controllers/about.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/albaro/acceptcookieswithdrogon/controllers/about.cc -o CMakeFiles/helloworld.dir/controllers/about.cc.s
+
 CMakeFiles/helloworld.dir/controllers/cookies.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/controllers/cookies.cc.o: ../controllers/cookies.cc
 CMakeFiles/helloworld.dir/controllers/cookies.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/helloworld.dir/controllers/cookies.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/helloworld.dir/controllers/cookies.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/controllers/cookies.cc.o -MF CMakeFiles/helloworld.dir/controllers/cookies.cc.o.d -o CMakeFiles/helloworld.dir/controllers/cookies.cc.o -c /home/albaro/acceptcookieswithdrogon/controllers/cookies.cc
 
 CMakeFiles/helloworld.dir/controllers/cookies.cc.i: cmake_force
@@ -223,10 +279,24 @@ CMakeFiles/helloworld.dir/controllers/cookies.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/controllers/cookies.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/albaro/acceptcookieswithdrogon/controllers/cookies.cc -o CMakeFiles/helloworld.dir/controllers/cookies.cc.s
 
+CMakeFiles/helloworld.dir/controllers/faq.cc.o: CMakeFiles/helloworld.dir/flags.make
+CMakeFiles/helloworld.dir/controllers/faq.cc.o: ../controllers/faq.cc
+CMakeFiles/helloworld.dir/controllers/faq.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/helloworld.dir/controllers/faq.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/controllers/faq.cc.o -MF CMakeFiles/helloworld.dir/controllers/faq.cc.o.d -o CMakeFiles/helloworld.dir/controllers/faq.cc.o -c /home/albaro/acceptcookieswithdrogon/controllers/faq.cc
+
+CMakeFiles/helloworld.dir/controllers/faq.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/controllers/faq.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/albaro/acceptcookieswithdrogon/controllers/faq.cc > CMakeFiles/helloworld.dir/controllers/faq.cc.i
+
+CMakeFiles/helloworld.dir/controllers/faq.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/controllers/faq.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/albaro/acceptcookieswithdrogon/controllers/faq.cc -o CMakeFiles/helloworld.dir/controllers/faq.cc.s
+
 CMakeFiles/helloworld.dir/controllers/features.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/controllers/features.cc.o: ../controllers/features.cc
 CMakeFiles/helloworld.dir/controllers/features.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/helloworld.dir/controllers/features.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/helloworld.dir/controllers/features.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/controllers/features.cc.o -MF CMakeFiles/helloworld.dir/controllers/features.cc.o.d -o CMakeFiles/helloworld.dir/controllers/features.cc.o -c /home/albaro/acceptcookieswithdrogon/controllers/features.cc
 
 CMakeFiles/helloworld.dir/controllers/features.cc.i: cmake_force
@@ -240,7 +310,7 @@ CMakeFiles/helloworld.dir/controllers/features.cc.s: cmake_force
 CMakeFiles/helloworld.dir/controllers/landing_page.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/controllers/landing_page.cc.o: ../controllers/landing_page.cc
 CMakeFiles/helloworld.dir/controllers/landing_page.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/helloworld.dir/controllers/landing_page.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/helloworld.dir/controllers/landing_page.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/controllers/landing_page.cc.o -MF CMakeFiles/helloworld.dir/controllers/landing_page.cc.o.d -o CMakeFiles/helloworld.dir/controllers/landing_page.cc.o -c /home/albaro/acceptcookieswithdrogon/controllers/landing_page.cc
 
 CMakeFiles/helloworld.dir/controllers/landing_page.cc.i: cmake_force
@@ -254,7 +324,7 @@ CMakeFiles/helloworld.dir/controllers/landing_page.cc.s: cmake_force
 CMakeFiles/helloworld.dir/controllers/pricing.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/controllers/pricing.cc.o: ../controllers/pricing.cc
 CMakeFiles/helloworld.dir/controllers/pricing.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/helloworld.dir/controllers/pricing.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/helloworld.dir/controllers/pricing.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/controllers/pricing.cc.o -MF CMakeFiles/helloworld.dir/controllers/pricing.cc.o.d -o CMakeFiles/helloworld.dir/controllers/pricing.cc.o -c /home/albaro/acceptcookieswithdrogon/controllers/pricing.cc
 
 CMakeFiles/helloworld.dir/controllers/pricing.cc.i: cmake_force
@@ -268,7 +338,7 @@ CMakeFiles/helloworld.dir/controllers/pricing.cc.s: cmake_force
 CMakeFiles/helloworld.dir/controllers/subscribe.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/controllers/subscribe.cc.o: ../controllers/subscribe.cc
 CMakeFiles/helloworld.dir/controllers/subscribe.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/helloworld.dir/controllers/subscribe.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/helloworld.dir/controllers/subscribe.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/controllers/subscribe.cc.o -MF CMakeFiles/helloworld.dir/controllers/subscribe.cc.o.d -o CMakeFiles/helloworld.dir/controllers/subscribe.cc.o -c /home/albaro/acceptcookieswithdrogon/controllers/subscribe.cc
 
 CMakeFiles/helloworld.dir/controllers/subscribe.cc.i: cmake_force
@@ -282,7 +352,7 @@ CMakeFiles/helloworld.dir/controllers/subscribe.cc.s: cmake_force
 CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o: ../filters/acceptCookies.cc
 CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o -MF CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o.d -o CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o -c /home/albaro/acceptcookieswithdrogon/filters/acceptCookies.cc
 
 CMakeFiles/helloworld.dir/filters/acceptCookies.cc.i: cmake_force
@@ -296,7 +366,7 @@ CMakeFiles/helloworld.dir/filters/acceptCookies.cc.s: cmake_force
 CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o: ../plugins/SMTPMail.cc
 CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o: CMakeFiles/helloworld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o -MF CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o.d -o CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o -c /home/albaro/acceptcookieswithdrogon/plugins/SMTPMail.cc
 
 CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.i: cmake_force
@@ -310,13 +380,17 @@ CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.s: cmake_force
 # Object files for target helloworld
 helloworld_OBJECTS = \
 "CMakeFiles/helloworld.dir/main.cc.o" \
+"CMakeFiles/helloworld.dir/About.cc.o" \
 "CMakeFiles/helloworld.dir/AcceptCookies.cc.o" \
+"CMakeFiles/helloworld.dir/FAQ.cc.o" \
 "CMakeFiles/helloworld.dir/Features.cc.o" \
 "CMakeFiles/helloworld.dir/Footer.cc.o" \
 "CMakeFiles/helloworld.dir/Header.cc.o" \
 "CMakeFiles/helloworld.dir/LandingPage.cc.o" \
 "CMakeFiles/helloworld.dir/Pricing.cc.o" \
+"CMakeFiles/helloworld.dir/controllers/about.cc.o" \
 "CMakeFiles/helloworld.dir/controllers/cookies.cc.o" \
+"CMakeFiles/helloworld.dir/controllers/faq.cc.o" \
 "CMakeFiles/helloworld.dir/controllers/features.cc.o" \
 "CMakeFiles/helloworld.dir/controllers/landing_page.cc.o" \
 "CMakeFiles/helloworld.dir/controllers/pricing.cc.o" \
@@ -328,13 +402,17 @@ helloworld_OBJECTS = \
 helloworld_EXTERNAL_OBJECTS =
 
 helloworld: CMakeFiles/helloworld.dir/main.cc.o
+helloworld: CMakeFiles/helloworld.dir/About.cc.o
 helloworld: CMakeFiles/helloworld.dir/AcceptCookies.cc.o
+helloworld: CMakeFiles/helloworld.dir/FAQ.cc.o
 helloworld: CMakeFiles/helloworld.dir/Features.cc.o
 helloworld: CMakeFiles/helloworld.dir/Footer.cc.o
 helloworld: CMakeFiles/helloworld.dir/Header.cc.o
 helloworld: CMakeFiles/helloworld.dir/LandingPage.cc.o
 helloworld: CMakeFiles/helloworld.dir/Pricing.cc.o
+helloworld: CMakeFiles/helloworld.dir/controllers/about.cc.o
 helloworld: CMakeFiles/helloworld.dir/controllers/cookies.cc.o
+helloworld: CMakeFiles/helloworld.dir/controllers/faq.cc.o
 helloworld: CMakeFiles/helloworld.dir/controllers/features.cc.o
 helloworld: CMakeFiles/helloworld.dir/controllers/landing_page.cc.o
 helloworld: CMakeFiles/helloworld.dir/controllers/pricing.cc.o
@@ -354,7 +432,7 @@ helloworld: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 helloworld: /usr/lib/x86_64-linux-gnu/libhiredis.so
 helloworld: /usr/lib/x86_64-linux-gnu/libz.so
 helloworld: CMakeFiles/helloworld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable helloworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/albaro/acceptcookieswithdrogon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable helloworld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/helloworld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -365,8 +443,12 @@ CMakeFiles/helloworld.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/helloworld.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/helloworld.dir/clean
 
+CMakeFiles/helloworld.dir/depend: About.cc
+CMakeFiles/helloworld.dir/depend: About.h
 CMakeFiles/helloworld.dir/depend: AcceptCookies.cc
 CMakeFiles/helloworld.dir/depend: AcceptCookies.h
+CMakeFiles/helloworld.dir/depend: FAQ.cc
+CMakeFiles/helloworld.dir/depend: FAQ.h
 CMakeFiles/helloworld.dir/depend: Features.cc
 CMakeFiles/helloworld.dir/depend: Features.h
 CMakeFiles/helloworld.dir/depend: Footer.cc
