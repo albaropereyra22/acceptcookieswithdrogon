@@ -1,4 +1,4 @@
 #! /bin/sh -
 cmake ..
 make
-./helloworld
+./helloworld;

@@ -262,6 +262,30 @@ LandingPage.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/LandingPage.cc.s
 .PHONY : LandingPage.cc.s
 
+Pricing.o: Pricing.cc.o
+.PHONY : Pricing.o
+
+# target to build an object file
+Pricing.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Pricing.cc.o
+.PHONY : Pricing.cc.o
+
+Pricing.i: Pricing.cc.i
+.PHONY : Pricing.i
+
+# target to preprocess a source file
+Pricing.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Pricing.cc.i
+.PHONY : Pricing.cc.i
+
+Pricing.s: Pricing.cc.s
+.PHONY : Pricing.s
+
+# target to generate assembly for a file
+Pricing.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/Pricing.cc.s
+.PHONY : Pricing.cc.s
+
 controllers/cookies.o: controllers/cookies.cc.o
 .PHONY : controllers/cookies.o
 
@@ -333,6 +357,30 @@ controllers/landing_page.s: controllers/landing_page.cc.s
 controllers/landing_page.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/landing_page.cc.s
 .PHONY : controllers/landing_page.cc.s
+
+controllers/pricing.o: controllers/pricing.cc.o
+.PHONY : controllers/pricing.o
+
+# target to build an object file
+controllers/pricing.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/pricing.cc.o
+.PHONY : controllers/pricing.cc.o
+
+controllers/pricing.i: controllers/pricing.cc.i
+.PHONY : controllers/pricing.i
+
+# target to preprocess a source file
+controllers/pricing.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/pricing.cc.i
+.PHONY : controllers/pricing.cc.i
+
+controllers/pricing.s: controllers/pricing.cc.s
+.PHONY : controllers/pricing.s
+
+# target to generate assembly for a file
+controllers/pricing.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/pricing.cc.s
+.PHONY : controllers/pricing.cc.s
 
 controllers/subscribe.o: controllers/subscribe.cc.o
 .PHONY : controllers/subscribe.o
@@ -406,6 +454,30 @@ main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/main.cc.s
 .PHONY : main.cc.s
 
+plugins/SMTPMail.o: plugins/SMTPMail.cc.o
+.PHONY : plugins/SMTPMail.o
+
+# target to build an object file
+plugins/SMTPMail.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o
+.PHONY : plugins/SMTPMail.cc.o
+
+plugins/SMTPMail.i: plugins/SMTPMail.cc.i
+.PHONY : plugins/SMTPMail.i
+
+# target to preprocess a source file
+plugins/SMTPMail.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.i
+.PHONY : plugins/SMTPMail.cc.i
+
+plugins/SMTPMail.s: plugins/SMTPMail.cc.s
+.PHONY : plugins/SMTPMail.s
+
+# target to generate assembly for a file
+plugins/SMTPMail.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.s
+.PHONY : plugins/SMTPMail.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -431,6 +503,9 @@ help:
 	@echo "... LandingPage.o"
 	@echo "... LandingPage.i"
 	@echo "... LandingPage.s"
+	@echo "... Pricing.o"
+	@echo "... Pricing.i"
+	@echo "... Pricing.s"
 	@echo "... controllers/cookies.o"
 	@echo "... controllers/cookies.i"
 	@echo "... controllers/cookies.s"
@@ -440,6 +515,9 @@ help:
 	@echo "... controllers/landing_page.o"
 	@echo "... controllers/landing_page.i"
 	@echo "... controllers/landing_page.s"
+	@echo "... controllers/pricing.o"
+	@echo "... controllers/pricing.i"
+	@echo "... controllers/pricing.s"
 	@echo "... controllers/subscribe.o"
 	@echo "... controllers/subscribe.i"
 	@echo "... controllers/subscribe.s"
@@ -449,6 +527,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... plugins/SMTPMail.o"
+	@echo "... plugins/SMTPMail.i"
+	@echo "... plugins/SMTPMail.s"
 .PHONY : help
 
 
