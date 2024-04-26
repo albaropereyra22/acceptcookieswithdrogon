@@ -3,9 +3,10 @@
 void subscribe::asyncHandleHttpRequest(const HttpRequestPtr& req, std::function<void (const HttpResponsePtr &)> &&callback)
 {
     // write your application logic here
-  LOG_INFO << "Subscription Page reached.";
-  std::string email = req->getParameter("newsletter1");
 
+  std::string email = req->getParameter("newsletter1");
+  // TODO validate email address.
+  LOG_INFO << "Subscription Page reached:" << email ;
   auto clientPtr = drogon::app().getDbClient();
   clientPtr->execSqlAsync("INSERT INTO Leads (emailLeads) VALUES (?)",
                             [callback](const drogon::orm::Result &result) {

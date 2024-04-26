@@ -41,7 +41,7 @@ std::string Footer::genText(const DrTemplateData& Footer_view_data)
 	Footer_tmp_stream << "          <p>Monthly digest of whats new and exciting from us.</p>\n";
 	Footer_tmp_stream << "          <div class=\"d-flex w-100 gap-2\">\n";
 	Footer_tmp_stream << "            <label for=\"newsletter1\" class=\"visually-hidden\">Email address</label>\n";
-	Footer_tmp_stream << "            <input id=\"newsletter1\" type=\"text\" class=\"form-control\" placeholder=\"Email address\" control-id=\"ControlID-1\">\n";
+	Footer_tmp_stream << "            <input name=\"newsletter1\" id=\"newsletter1\" type=\"text\" class=\"form-control\" placeholder=\"Email address\" control-id=\"ControlID-1\">\n";
 	Footer_tmp_stream << "            <button class=\"btn btn-primary\" type=\"button\" control-id=\"ControlID-2\">Subscribe</button>\n";
 	Footer_tmp_stream << "          </div>\n";
 	Footer_tmp_stream << "        </form>\n";
