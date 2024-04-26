@@ -5,10 +5,11 @@ git add .
 
 if [ -z $1 ];
 then
-  echo "Enter comment:";
+  printf "Enter comment:";
   read comment;
-  git commit -m "$comment";
+
 else
-  git commit -m "$1";
+  comment="$1";
 fi
+git commit -m "$comment";
 git push
