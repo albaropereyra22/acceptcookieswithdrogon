@@ -1,4 +1,8 @@
 #! /bin/sh -
-cmake ..
-make
-./helloworld;
+
+while [ 1 ]
+do
+  cmake ..
+  make
+  ./helloworld;
+done
