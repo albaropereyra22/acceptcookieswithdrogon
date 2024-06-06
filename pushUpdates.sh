@@ -2,13 +2,20 @@
 
 git add .
 
-if [ -z $1 ];
+
+if [ "X$1" = "X-h" ];
+then
+  tee - <<EOF
+usage: command -h:"comment".
+EOF
+
+elif [ -z $1 ];
 then
   printf "Enter comment:";
   read comment;
-
 else
-  comment="$1";
+  comment="$@";
 fi
+
 git commit -m "$comment";
 git push
