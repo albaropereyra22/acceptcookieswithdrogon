@@ -424,8 +424,13 @@ helloworld: /usr/local/lib/libdrogon.a
 helloworld: /usr/local/lib/libtrantor.a
 helloworld: /usr/lib/x86_64-linux-gnu/libssl.so
 helloworld: /usr/lib/x86_64-linux-gnu/libcrypto.so
+helloworld: /usr/lib/x86_64-linux-gnu/libcares.so
 helloworld: /usr/local/lib/libjsoncpp.so
+helloworld: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 helloworld: /usr/lib/x86_64-linux-gnu/libuuid.so
+helloworld: /usr/lib/x86_64-linux-gnu/libbrotlidec.so
+helloworld: /usr/lib/x86_64-linux-gnu/libbrotlienc.so
+helloworld: /usr/lib/x86_64-linux-gnu/libbrotlicommon.so
 helloworld: /usr/lib/x86_64-linux-gnu/libpq.so
 helloworld: /usr/lib/x86_64-linux-gnu/libmariadbclient.so
 helloworld: /usr/lib/x86_64-linux-gnu/libsqlite3.so

@@ -96,8 +96,13 @@ test/helloworld_test: /usr/local/lib/libdrogon.a
 test/helloworld_test: /usr/local/lib/libtrantor.a
 test/helloworld_test: /usr/lib/x86_64-linux-gnu/libssl.so
 test/helloworld_test: /usr/lib/x86_64-linux-gnu/libcrypto.so
+test/helloworld_test: /usr/lib/x86_64-linux-gnu/libcares.so
 test/helloworld_test: /usr/local/lib/libjsoncpp.so
+test/helloworld_test: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 test/helloworld_test: /usr/lib/x86_64-linux-gnu/libuuid.so
+test/helloworld_test: /usr/lib/x86_64-linux-gnu/libbrotlidec.so
+test/helloworld_test: /usr/lib/x86_64-linux-gnu/libbrotlienc.so
+test/helloworld_test: /usr/lib/x86_64-linux-gnu/libbrotlicommon.so
 test/helloworld_test: /usr/lib/x86_64-linux-gnu/libpq.so
 test/helloworld_test: /usr/lib/x86_64-linux-gnu/libmariadbclient.so
 test/helloworld_test: /usr/lib/x86_64-linux-gnu/libsqlite3.so

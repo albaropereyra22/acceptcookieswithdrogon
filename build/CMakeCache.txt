@@ -14,6 +14,24 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a library.
+BROTLICOMMON_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libbrotlicommon.so
+
+//Path to a library.
+BROTLIDEC_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libbrotlidec.so
+
+//Path to a library.
+BROTLIENC_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libbrotlienc.so
+
+//Path to a file.
+BROTLI_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a file.
+C-ARES_INCLUDE_DIRS:PATH=/usr/include
+
+//Path to a library.
+C-ARES_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libcares.so
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -235,7 +253,7 @@ OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
-PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //The Set the PostgreSQL_INCLUDE_DIR cmake cache entry to the top-level
 // directory containing the PostgreSQL include directories. E.g
@@ -300,11 +318,24 @@ helloworld_test_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 helloworld_test_SOURCE_DIR:STATIC=/home/albaro/acceptcookieswithdrogon/test
 
+//Path to a library.
+pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+
+//Path to a library.
+pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+
+//The directory containing a CMake configuration file for yaml-cpp.
+yaml-cpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp
+
 
 ########################
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: C-ARES_INCLUDE_DIRS
+C-ARES_INCLUDE_DIRS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: C-ARES_LIBRARIES
+C-ARES_LIBRARIES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -442,6 +473,8 @@ CXX_FILESYSTEM_NO_LINK_NEEDED:INTERNAL=1
 CXX_FILESYSTEM_NO_LINK_NEEDED_COMPILED:INTERNAL=TRUE
 //Result of TRY_RUN
 CXX_FILESYSTEM_NO_LINK_NEEDED_EXITCODE:INTERNAL=0
+//Details about finding Brotli
+FIND_PACKAGE_MESSAGE_DETAILS_Brotli:INTERNAL=[/usr/lib/x86_64-linux-gnu/libbrotlidec.so][/usr/lib/x86_64-linux-gnu/libbrotlienc.so][/usr/lib/x86_64-linux-gnu/libbrotlicommon.so][/usr/include][v()]
 //Details about finding Hiredis
 FIND_PACKAGE_MESSAGE_DETAILS_Hiredis:INTERNAL=[/usr/lib/x86_64-linux-gnu/libhiredis.so][/usr/include][v()]
 //Details about finding Jsoncpp
@@ -458,6 +491,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_SQLite3:INTERNAL=[/usr/lib/x86_64-linux-gnu/libsqli
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding ZLIB
 FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/lib/x86_64-linux-gnu/libz.so][/usr/include][v1.2.11()]
+//Details about finding c-ares
+FIND_PACKAGE_MESSAGE_DETAILS_c-ares:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-gnu/libcares.so][v()]
 //Details about finding pg
 FIND_PACKAGE_MESSAGE_DETAILS_pg:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpq.so][/usr/include/postgresql][v()]
 //Have include any
@@ -513,23 +548,43 @@ _CXX_FILESYSTEM_HAVE_HEADER:INTERNAL=1
 _OPENSSL_CFLAGS:INTERNAL=
 _OPENSSL_CFLAGS_I:INTERNAL=
 _OPENSSL_CFLAGS_OTHER:INTERNAL=
-_OPENSSL_FOUND:INTERNAL=
-_OPENSSL_INCLUDEDIR:INTERNAL=
-_OPENSSL_LIBDIR:INTERNAL=
+_OPENSSL_FOUND:INTERNAL=1
+_OPENSSL_INCLUDEDIR:INTERNAL=/usr/include
+_OPENSSL_INCLUDE_DIRS:INTERNAL=
+_OPENSSL_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto
+_OPENSSL_LDFLAGS_OTHER:INTERNAL=
+_OPENSSL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_LIBRARIES:INTERNAL=ssl;crypto
+_OPENSSL_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
 _OPENSSL_LIBS:INTERNAL=
 _OPENSSL_LIBS_L:INTERNAL=
 _OPENSSL_LIBS_OTHER:INTERNAL=
 _OPENSSL_LIBS_PATHS:INTERNAL=
-_OPENSSL_MODULE_NAME:INTERNAL=
-_OPENSSL_PREFIX:INTERNAL=
+_OPENSSL_MODULE_NAME:INTERNAL=openssl
+_OPENSSL_PREFIX:INTERNAL=/usr
 _OPENSSL_STATIC_CFLAGS:INTERNAL=
 _OPENSSL_STATIC_CFLAGS_I:INTERNAL=
 _OPENSSL_STATIC_CFLAGS_OTHER:INTERNAL=
+_OPENSSL_STATIC_INCLUDE_DIRS:INTERNAL=
+_OPENSSL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto;-ldl;-pthread
+_OPENSSL_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
 _OPENSSL_STATIC_LIBDIR:INTERNAL=
+_OPENSSL_STATIC_LIBRARIES:INTERNAL=ssl;crypto;dl
+_OPENSSL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
 _OPENSSL_STATIC_LIBS:INTERNAL=
 _OPENSSL_STATIC_LIBS_L:INTERNAL=
 _OPENSSL_STATIC_LIBS_OTHER:INTERNAL=
 _OPENSSL_STATIC_LIBS_PATHS:INTERNAL=
-_OPENSSL_VERSION:INTERNAL=
+_OPENSSL_VERSION:INTERNAL=3.0.2
+_OPENSSL_openssl_INCLUDEDIR:INTERNAL=
+_OPENSSL_openssl_LIBDIR:INTERNAL=
+_OPENSSL_openssl_PREFIX:INTERNAL=
+_OPENSSL_openssl_VERSION:INTERNAL=
+__pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto
+pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
+pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 

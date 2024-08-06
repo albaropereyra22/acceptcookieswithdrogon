@@ -35,6 +35,17 @@ std::string FAQ::genText(const DrTemplateData& FAQ_view_data)
     }
 }
 FAQ_tmp_stream<<"\n";
+	FAQ_tmp_stream << "    <div class=\"container\">\n";
+	FAQ_tmp_stream << "    <h1> Here is a list of Frequently asked questions.</h1>\n";
+	FAQ_tmp_stream << "    <p><h3>How does it work?</h3></br>\n";
+	FAQ_tmp_stream << "      simply login enter the URL you want to be shortened into the text box.  wait for the short URL and share.</p>\n";
+	FAQ_tmp_stream << "    <p><h3>Why do I have to login?</h3></br>\n";
+	FAQ_tmp_stream << "      We want to provide a custom solution for every user. We want to keep your history of usage.</p>\n";
+	FAQ_tmp_stream << "    <p><h3>How much is it?</h3></br>\n";
+	FAQ_tmp_stream << "      We offer a Freemium service, first few links are free.</p>\n";
+	FAQ_tmp_stream << "    <p><h3>Is this really the fastest URL shortner?</h3></br>\n";
+	FAQ_tmp_stream << "      There are only two ways of making a faster website and no one has done it yet.  We use a fast web stack using c++.</p>\n";
+	FAQ_tmp_stream << "      </div>\n";
 	FAQ_tmp_stream << "    ";
 {
     auto templ=DrTemplateBase::newTemplate("Footer.csp");

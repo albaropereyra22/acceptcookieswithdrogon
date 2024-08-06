@@ -2555,6 +2555,7 @@ CMakeFiles/helloworld.dir/controllers/about.cc.o: ../controllers/about.cc \
   /usr/local/include/drogon/Cookie.h \
   /usr/local/include/drogon/HttpViewData.h \
   /usr/local/include/trantor/utils/MsgBuffer.h \
+  /usr/local/include/drogon/HttpMiddleware.h \
   /usr/local/include/drogon/MultiPart.h \
   /usr/local/include/drogon/NotFound.h \
   /usr/local/include/drogon/DrTemplate.h \
@@ -2572,6 +2573,8 @@ CMakeFiles/helloworld.dir/controllers/about.cc.o: ../controllers/about.cc \
   /usr/local/include/drogon/orm/DbTypes.h \
   /usr/local/include/drogon/orm/FunctionTraits.h \
   /usr/local/include/json/writer.h \
+  /usr/local/include/drogon/orm/DbConfig.h \
+  /usr/include/c++/11/variant \
   /usr/local/include/drogon/nosql/RedisClient.h \
   /usr/local/include/drogon/nosql/RedisResult.h \
   /usr/local/include/drogon/nosql/RedisException.h \
@@ -2924,6 +2927,7 @@ CMakeFiles/helloworld.dir/controllers/cookies.cc.o: ../controllers/cookies.cc \
   /usr/local/include/drogon/Cookie.h \
   /usr/local/include/drogon/HttpViewData.h \
   /usr/local/include/trantor/utils/MsgBuffer.h \
+  /usr/local/include/drogon/HttpMiddleware.h \
   /usr/local/include/drogon/MultiPart.h \
   /usr/local/include/drogon/NotFound.h \
   /usr/local/include/drogon/DrTemplate.h \
@@ -2941,6 +2945,8 @@ CMakeFiles/helloworld.dir/controllers/cookies.cc.o: ../controllers/cookies.cc \
   /usr/local/include/drogon/orm/DbTypes.h \
   /usr/local/include/drogon/orm/FunctionTraits.h \
   /usr/local/include/json/writer.h \
+  /usr/local/include/drogon/orm/DbConfig.h \
+  /usr/include/c++/11/variant \
   /usr/local/include/drogon/nosql/RedisClient.h \
   /usr/local/include/drogon/nosql/RedisResult.h \
   /usr/local/include/drogon/nosql/RedisException.h \
@@ -3293,6 +3299,7 @@ CMakeFiles/helloworld.dir/controllers/faq.cc.o: ../controllers/faq.cc \
   /usr/local/include/drogon/Cookie.h \
   /usr/local/include/drogon/HttpViewData.h \
   /usr/local/include/trantor/utils/MsgBuffer.h \
+  /usr/local/include/drogon/HttpMiddleware.h \
   /usr/local/include/drogon/MultiPart.h \
   /usr/local/include/drogon/NotFound.h \
   /usr/local/include/drogon/DrTemplate.h \
@@ -3310,6 +3317,8 @@ CMakeFiles/helloworld.dir/controllers/faq.cc.o: ../controllers/faq.cc \
   /usr/local/include/drogon/orm/DbTypes.h \
   /usr/local/include/drogon/orm/FunctionTraits.h \
   /usr/local/include/json/writer.h \
+  /usr/local/include/drogon/orm/DbConfig.h \
+  /usr/include/c++/11/variant \
   /usr/local/include/drogon/nosql/RedisClient.h \
   /usr/local/include/drogon/nosql/RedisResult.h \
   /usr/local/include/drogon/nosql/RedisException.h \
@@ -3662,6 +3671,7 @@ CMakeFiles/helloworld.dir/controllers/features.cc.o: ../controllers/features.cc 
   /usr/local/include/drogon/Cookie.h \
   /usr/local/include/drogon/HttpViewData.h \
   /usr/local/include/trantor/utils/MsgBuffer.h \
+  /usr/local/include/drogon/HttpMiddleware.h \
   /usr/local/include/drogon/MultiPart.h \
   /usr/local/include/drogon/NotFound.h \
   /usr/local/include/drogon/DrTemplate.h \
@@ -3679,6 +3689,8 @@ CMakeFiles/helloworld.dir/controllers/features.cc.o: ../controllers/features.cc 
   /usr/local/include/drogon/orm/DbTypes.h \
   /usr/local/include/drogon/orm/FunctionTraits.h \
   /usr/local/include/json/writer.h \
+  /usr/local/include/drogon/orm/DbConfig.h \
+  /usr/include/c++/11/variant \
   /usr/local/include/drogon/nosql/RedisClient.h \
   /usr/local/include/drogon/nosql/RedisResult.h \
   /usr/local/include/drogon/nosql/RedisException.h \
@@ -4031,6 +4043,7 @@ CMakeFiles/helloworld.dir/controllers/landing_page.cc.o: ../controllers/landing_
   /usr/local/include/drogon/Cookie.h \
   /usr/local/include/drogon/HttpViewData.h \
   /usr/local/include/trantor/utils/MsgBuffer.h \
+  /usr/local/include/drogon/HttpMiddleware.h \
   /usr/local/include/drogon/MultiPart.h \
   /usr/local/include/drogon/NotFound.h \
   /usr/local/include/drogon/DrTemplate.h \
@@ -4048,6 +4061,8 @@ CMakeFiles/helloworld.dir/controllers/landing_page.cc.o: ../controllers/landing_
   /usr/local/include/drogon/orm/DbTypes.h \
   /usr/local/include/drogon/orm/FunctionTraits.h \
   /usr/local/include/json/writer.h \
+  /usr/local/include/drogon/orm/DbConfig.h \
+  /usr/include/c++/11/variant \
   /usr/local/include/drogon/nosql/RedisClient.h \
   /usr/local/include/drogon/nosql/RedisResult.h \
   /usr/local/include/drogon/nosql/RedisException.h \
@@ -4400,6 +4415,7 @@ CMakeFiles/helloworld.dir/controllers/pricing.cc.o: ../controllers/pricing.cc \
   /usr/local/include/drogon/Cookie.h \
   /usr/local/include/drogon/HttpViewData.h \
   /usr/local/include/trantor/utils/MsgBuffer.h \
+  /usr/local/include/drogon/HttpMiddleware.h \
   /usr/local/include/drogon/MultiPart.h \
   /usr/local/include/drogon/NotFound.h \
   /usr/local/include/drogon/DrTemplate.h \
@@ -4417,6 +4433,8 @@ CMakeFiles/helloworld.dir/controllers/pricing.cc.o: ../controllers/pricing.cc \
   /usr/local/include/drogon/orm/DbTypes.h \
   /usr/local/include/drogon/orm/FunctionTraits.h \
   /usr/local/include/json/writer.h \
+  /usr/local/include/drogon/orm/DbConfig.h \
+  /usr/include/c++/11/variant \
   /usr/local/include/drogon/nosql/RedisClient.h \
   /usr/local/include/drogon/nosql/RedisResult.h \
   /usr/local/include/drogon/nosql/RedisException.h \
@@ -4769,6 +4787,7 @@ CMakeFiles/helloworld.dir/controllers/subscribe.cc.o: ../controllers/subscribe.c
   /usr/local/include/drogon/Cookie.h \
   /usr/local/include/drogon/HttpViewData.h \
   /usr/local/include/trantor/utils/MsgBuffer.h \
+  /usr/local/include/drogon/HttpMiddleware.h \
   /usr/local/include/drogon/MultiPart.h \
   /usr/local/include/drogon/NotFound.h \
   /usr/local/include/drogon/DrTemplate.h \
@@ -4786,6 +4805,8 @@ CMakeFiles/helloworld.dir/controllers/subscribe.cc.o: ../controllers/subscribe.c
   /usr/local/include/drogon/orm/DbTypes.h \
   /usr/local/include/drogon/orm/FunctionTraits.h \
   /usr/local/include/json/writer.h \
+  /usr/local/include/drogon/orm/DbConfig.h \
+  /usr/include/c++/11/variant \
   /usr/local/include/drogon/nosql/RedisClient.h \
   /usr/local/include/drogon/nosql/RedisResult.h \
   /usr/local/include/drogon/nosql/RedisException.h \
@@ -5122,7 +5143,8 @@ CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o: ../filters/acceptCookies.c
   /usr/local/include/trantor/net/AsyncStream.h \
   /usr/local/include/drogon/Cookie.h \
   /usr/local/include/drogon/HttpViewData.h \
-  /usr/local/include/trantor/utils/MsgBuffer.h
+  /usr/local/include/trantor/utils/MsgBuffer.h \
+  /usr/local/include/drogon/HttpMiddleware.h
 
 CMakeFiles/helloworld.dir/main.cc.o: ../main.cc \
   /usr/include/stdc-predef.h \
@@ -5469,6 +5491,7 @@ CMakeFiles/helloworld.dir/main.cc.o: ../main.cc \
   /usr/local/include/drogon/Cookie.h \
   /usr/local/include/drogon/HttpViewData.h \
   /usr/local/include/trantor/utils/MsgBuffer.h \
+  /usr/local/include/drogon/HttpMiddleware.h \
   /usr/local/include/drogon/MultiPart.h \
   /usr/local/include/drogon/NotFound.h \
   /usr/local/include/drogon/DrTemplate.h \
@@ -5486,6 +5509,8 @@ CMakeFiles/helloworld.dir/main.cc.o: ../main.cc \
   /usr/local/include/drogon/orm/DbTypes.h \
   /usr/local/include/drogon/orm/FunctionTraits.h \
   /usr/local/include/json/writer.h \
+  /usr/local/include/drogon/orm/DbConfig.h \
+  /usr/include/c++/11/variant \
   /usr/local/include/drogon/nosql/RedisClient.h \
   /usr/local/include/drogon/nosql/RedisResult.h \
   /usr/local/include/drogon/nosql/RedisException.h \
@@ -5874,6 +5899,7 @@ CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o: ../plugins/SMTPMail.cc \
   /usr/local/include/drogon/Cookie.h \
   /usr/local/include/drogon/HttpViewData.h \
   /usr/local/include/trantor/utils/MsgBuffer.h \
+  /usr/local/include/drogon/HttpMiddleware.h \
   /usr/local/include/drogon/MultiPart.h \
   /usr/local/include/drogon/NotFound.h \
   /usr/local/include/drogon/DrTemplate.h \
@@ -5890,6 +5916,8 @@ CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o: ../plugins/SMTPMail.cc \
   /usr/local/include/drogon/orm/DbTypes.h \
   /usr/local/include/drogon/orm/FunctionTraits.h \
   /usr/local/include/json/writer.h \
+  /usr/local/include/drogon/orm/DbConfig.h \
+  /usr/include/c++/11/variant \
   /usr/local/include/drogon/nosql/RedisClient.h \
   /usr/local/include/drogon/nosql/RedisResult.h \
   /usr/local/include/drogon/nosql/RedisException.h \
@@ -6016,6 +6044,10 @@ CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o: ../plugins/SMTPMail.cc \
 ../controllers/features.cc:
 
 /usr/local/include/trantor/net/Resolver.h:
+
+/usr/include/c++/11/variant:
+
+/usr/local/include/drogon/orm/DbConfig.h:
 
 /usr/local/include/drogon/orm/FunctionTraits.h:
 
@@ -6466,6 +6498,8 @@ About.cc:
 ../controllers/pricing.cc:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/local/include/drogon/HttpMiddleware.h:
 
 /usr/include/c++/11/ext/concurrence.h:
 

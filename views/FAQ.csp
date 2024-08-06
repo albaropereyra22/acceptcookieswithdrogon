@@ -9,6 +9,17 @@
   </head>
   <body>
     <%view Header.csp %>
+    <div class="container">
+    <h1> Here is a list of Frequently asked questions.</h1>
+    <p><h3>How does it work?</h3></br>
+      simply login enter the URL you want to be shortened into the text box.  wait for the short URL and share.</p>
+    <p><h3>Why do I have to login?</h3></br>
+      We want to provide a custom solution for every user. We want to keep your history of usage.</p>
+    <p><h3>How much is it?</h3></br>
+      We offer a Freemium service, first few links are free.</p>
+    <p><h3>Is this really the fastest URL shortner?</h3></br>
+      There are only two ways of making a faster website and no one has done it yet.  We use a fast web stack using c++.</p>
+      </div>
     <%view Footer.csp %>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

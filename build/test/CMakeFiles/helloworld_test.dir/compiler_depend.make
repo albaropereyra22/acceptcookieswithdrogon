@@ -347,6 +347,7 @@ test/CMakeFiles/helloworld_test.dir/test_main.cc.o: ../test/test_main.cc \
   /usr/local/include/drogon/Cookie.h \
   /usr/local/include/drogon/HttpViewData.h \
   /usr/local/include/trantor/utils/MsgBuffer.h \
+  /usr/local/include/drogon/HttpMiddleware.h \
   /usr/local/include/drogon/MultiPart.h \
   /usr/local/include/drogon/NotFound.h \
   /usr/local/include/drogon/DrTemplate.h \
@@ -364,6 +365,8 @@ test/CMakeFiles/helloworld_test.dir/test_main.cc.o: ../test/test_main.cc \
   /usr/local/include/drogon/orm/DbTypes.h \
   /usr/local/include/drogon/orm/FunctionTraits.h \
   /usr/local/include/json/writer.h \
+  /usr/local/include/drogon/orm/DbConfig.h \
+  /usr/include/c++/11/variant \
   /usr/local/include/drogon/nosql/RedisClient.h \
   /usr/local/include/drogon/nosql/RedisResult.h \
   /usr/local/include/drogon/nosql/RedisException.h \
@@ -446,6 +449,10 @@ test/CMakeFiles/helloworld_test.dir/test_main.cc.o: ../test/test_main.cc \
 /usr/local/include/drogon/HttpSimpleController.h:
 
 /usr/local/include/trantor/net/Resolver.h:
+
+/usr/include/c++/11/variant:
+
+/usr/local/include/drogon/orm/DbConfig.h:
 
 /usr/local/include/drogon/orm/FunctionTraits.h:
 
@@ -834,6 +841,8 @@ test/CMakeFiles/helloworld_test.dir/test_main.cc.o: ../test/test_main.cc \
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/local/include/drogon/drogon.h:
+
+/usr/local/include/drogon/HttpMiddleware.h:
 
 /usr/include/c++/11/ext/concurrence.h:
 
