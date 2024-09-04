@@ -454,6 +454,30 @@ controllers/landing_page.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/landing_page.cc.s
 .PHONY : controllers/landing_page.cc.s
 
+controllers/login.o: controllers/login.cc.o
+.PHONY : controllers/login.o
+
+# target to build an object file
+controllers/login.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/login.cc.o
+.PHONY : controllers/login.cc.o
+
+controllers/login.i: controllers/login.cc.i
+.PHONY : controllers/login.i
+
+# target to preprocess a source file
+controllers/login.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/login.cc.i
+.PHONY : controllers/login.cc.i
+
+controllers/login.s: controllers/login.cc.s
+.PHONY : controllers/login.s
+
+# target to generate assembly for a file
+controllers/login.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/controllers/login.cc.s
+.PHONY : controllers/login.cc.s
+
 controllers/pricing.o: controllers/pricing.cc.o
 .PHONY : controllers/pricing.o
 
@@ -525,6 +549,30 @@ filters/acceptCookies.s: filters/acceptCookies.cc.s
 filters/acceptCookies.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/filters/acceptCookies.cc.s
 .PHONY : filters/acceptCookies.cc.s
+
+login.o: login.cc.o
+.PHONY : login.o
+
+# target to build an object file
+login.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/login.cc.o
+.PHONY : login.cc.o
+
+login.i: login.cc.i
+.PHONY : login.i
+
+# target to preprocess a source file
+login.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/login.cc.i
+.PHONY : login.cc.i
+
+login.s: login.cc.s
+.PHONY : login.s
+
+# target to generate assembly for a file
+login.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/login.cc.s
+.PHONY : login.cc.s
 
 main.o: main.cc.o
 .PHONY : main.o
@@ -623,6 +671,9 @@ help:
 	@echo "... controllers/landing_page.o"
 	@echo "... controllers/landing_page.i"
 	@echo "... controllers/landing_page.s"
+	@echo "... controllers/login.o"
+	@echo "... controllers/login.i"
+	@echo "... controllers/login.s"
 	@echo "... controllers/pricing.o"
 	@echo "... controllers/pricing.i"
 	@echo "... controllers/pricing.s"
@@ -632,6 +683,9 @@ help:
 	@echo "... filters/acceptCookies.o"
 	@echo "... filters/acceptCookies.i"
 	@echo "... filters/acceptCookies.s"
+	@echo "... login.o"
+	@echo "... login.i"
+	@echo "... login.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

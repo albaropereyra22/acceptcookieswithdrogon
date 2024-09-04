@@ -21,9 +21,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/albaro/acceptcookieswithdrogon/controllers/faq.cc" "CMakeFiles/helloworld.dir/controllers/faq.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/faq.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/controllers/features.cc" "CMakeFiles/helloworld.dir/controllers/features.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/features.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/controllers/landing_page.cc" "CMakeFiles/helloworld.dir/controllers/landing_page.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/landing_page.cc.o.d"
+  "/home/albaro/acceptcookieswithdrogon/controllers/login.cc" "CMakeFiles/helloworld.dir/controllers/login.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/login.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/controllers/pricing.cc" "CMakeFiles/helloworld.dir/controllers/pricing.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/pricing.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/controllers/subscribe.cc" "CMakeFiles/helloworld.dir/controllers/subscribe.cc.o" "gcc" "CMakeFiles/helloworld.dir/controllers/subscribe.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/filters/acceptCookies.cc" "CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o" "gcc" "CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o.d"
+  "/home/albaro/acceptcookieswithdrogon/build/login.cc" "CMakeFiles/helloworld.dir/login.cc.o" "gcc" "CMakeFiles/helloworld.dir/login.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/main.cc" "CMakeFiles/helloworld.dir/main.cc.o" "gcc" "CMakeFiles/helloworld.dir/main.cc.o.d"
   "/home/albaro/acceptcookieswithdrogon/plugins/SMTPMail.cc" "CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o" "gcc" "CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o.d"
   )
@@ -38,6 +40,7 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/albaro/acceptcookieswithdrogon/build/Header.cc" "/home/albaro/acceptcookieswithdrogon/build/Header.h"
   "/home/albaro/acceptcookieswithdrogon/build/LandingPage.cc" "/home/albaro/acceptcookieswithdrogon/build/LandingPage.h"
   "/home/albaro/acceptcookieswithdrogon/build/Pricing.cc" "/home/albaro/acceptcookieswithdrogon/build/Pricing.h"
+  "/home/albaro/acceptcookieswithdrogon/build/login.cc" "/home/albaro/acceptcookieswithdrogon/build/login.h"
   )
 
 

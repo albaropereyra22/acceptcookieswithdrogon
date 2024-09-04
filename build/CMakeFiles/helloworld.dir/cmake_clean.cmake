@@ -29,12 +29,16 @@ file(REMOVE_RECURSE
   "CMakeFiles/helloworld.dir/controllers/features.cc.o.d"
   "CMakeFiles/helloworld.dir/controllers/landing_page.cc.o"
   "CMakeFiles/helloworld.dir/controllers/landing_page.cc.o.d"
+  "CMakeFiles/helloworld.dir/controllers/login.cc.o"
+  "CMakeFiles/helloworld.dir/controllers/login.cc.o.d"
   "CMakeFiles/helloworld.dir/controllers/pricing.cc.o"
   "CMakeFiles/helloworld.dir/controllers/pricing.cc.o.d"
   "CMakeFiles/helloworld.dir/controllers/subscribe.cc.o"
   "CMakeFiles/helloworld.dir/controllers/subscribe.cc.o.d"
   "CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o"
   "CMakeFiles/helloworld.dir/filters/acceptCookies.cc.o.d"
+  "CMakeFiles/helloworld.dir/login.cc.o"
+  "CMakeFiles/helloworld.dir/login.cc.o.d"
   "CMakeFiles/helloworld.dir/main.cc.o"
   "CMakeFiles/helloworld.dir/main.cc.o.d"
   "CMakeFiles/helloworld.dir/plugins/SMTPMail.cc.o"
@@ -53,6 +57,8 @@ file(REMOVE_RECURSE
   "Pricing.h"
   "helloworld"
   "helloworld.pdb"
+  "login.cc"
+  "login.h"
 )
 
 # Per-language clean rules from dependency scanning.

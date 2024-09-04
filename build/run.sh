@@ -2,7 +2,8 @@
 
 while [ 1 ]
 do
-  cmake ..
-  make
+  make clean;
+  cmake ..;
+  make;
   ./helloworld;
 done
