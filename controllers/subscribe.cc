@@ -7,7 +7,7 @@ void subscribe::asyncHandleHttpRequest(const HttpRequestPtr& req, std::function<
   std::string email = req->getParameter("newsletter1");
   // TODO validate email address.
   LOG_INFO << "Subscription Page reached:" << email ;
-  auto clientPtr = drogon::app().getDbClient();
+  /*auto clientPtr = drogon::app().getDbClient();
   clientPtr->execSqlAsync("INSERT INTO Leads (emailLeads) VALUES (?)",
                             [callback](const drogon::orm::Result &result) {
 			      HttpResponsePtr resp = HttpResponse::newHttpResponse();
@@ -17,5 +17,8 @@ void subscribe::asyncHandleHttpRequest(const HttpRequestPtr& req, std::function<
 			  [](const drogon::orm::DrogonDbException &e) {
                                 std::cerr << "error:" << e.base().what() << std::endl;
                             },
-			  email);
+			    email);*/
+  HttpResponsePtr resp = HttpResponse::newHttpResponse();
+  resp->setBody(email);
+  return callback(resp);
 }

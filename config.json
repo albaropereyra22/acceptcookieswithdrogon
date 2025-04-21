@@ -35,7 +35,7 @@
                 //["MinProtocol", "TLSv1.3"]
             ]
         }
-    ],*/
+    ],
     "db_clients": [
         {
             //name: Name of the client,'default' by default
@@ -70,7 +70,7 @@
             // the wiki for more details.
             "auto_batch": false
         }
-    ],/*
+    ],
     "redis_clients": [
         {
             //name: Name of the client,'default' by default

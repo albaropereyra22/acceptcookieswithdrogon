@@ -29,8 +29,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/helloworld.dir/controllers/features.cc.o.d"
   "CMakeFiles/helloworld.dir/controllers/landing_page.cc.o"
   "CMakeFiles/helloworld.dir/controllers/landing_page.cc.o.d"
-  "CMakeFiles/helloworld.dir/controllers/login.cc.o"
-  "CMakeFiles/helloworld.dir/controllers/login.cc.o.d"
   "CMakeFiles/helloworld.dir/controllers/pricing.cc.o"
   "CMakeFiles/helloworld.dir/controllers/pricing.cc.o.d"
   "CMakeFiles/helloworld.dir/controllers/subscribe.cc.o"
